@@ -30,11 +30,6 @@ This project consists of two main components:
    cd forex-factory-scraper
    ```
 
-2. Install the required Python libraries:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 3. Download and install the appropriate Chrome WebDriver for your Chrome version from [here](https://sites.google.com/chromium.org/driver/).
 
@@ -59,7 +54,7 @@ This project consists of two main components:
    ```
 2. Follow the notebook's instructions to load and analyze the scraped data.
 3. Customize visualizations and analysis as needed.
-
+4. The news is divide into 3 categories **Monster**, **Major**, and **Minor** category on the basis of average pips change in the past 5 years
 ## File Descriptions
 
 - **scrapers.py**:
